@@ -2,18 +2,13 @@ body {
     background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
 }
 
-.weather-app {
-    max-width: 600px;
-    margin: 50px auto;
-    padding: 70px;
-    border: 2px solid pink;
-    border-radius: 40px;
-}
-
 h1 {
     color: #01633d;
-    font-size: 24px;
-    padding: 0;
+    font-size: 40px;
+    padding: 10px;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: bolder;
 }
 
 ul {
@@ -27,3 +22,30 @@ li {
     font-size: 16px;
 }
 
+img {
+    height: 100px;
+    width: 100px;
+}
+
+.weather-app-wrapper {
+    max-width: 600px;
+    margin: 30px auto;  
+}
+
+.weather-app {
+    padding: 50px;
+    border: 2px solid pink;
+    border-radius: 40px;
+}
+
+strong {
+    color: #01633d;
+    font-size: 64px;
+    line-height: 1;
+}
+
+.units {
+    position: relative;
+    font-size: 20px;
+    top: -34px;
+}
