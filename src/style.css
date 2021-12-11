@@ -1,3 +1,29 @@
-h1 {
-    color: blue;
+body {
+    background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
 }
+
+.weather-app {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 70px;
+    border: 2px solid pink;
+    border-radius: 40px;
+}
+
+h1 {
+    color: #01633d;
+    font-size: 24px;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    color: #885df1;
+    font-size: 16px;
+}
+
