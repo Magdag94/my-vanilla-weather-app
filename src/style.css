@@ -20,6 +20,7 @@ li {
     list-style: none;
     color: #885df1;
     font-size: 16px;
+    text-transform: capitalize;
 }
 
 img {
