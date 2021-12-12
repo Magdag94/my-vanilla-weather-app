@@ -16,10 +16,17 @@ ul {
     padding: 0;
 }
 
+.date {
+    color: black;
+}
+
 li {
     list-style: none;
     color: #885df1;
     font-size: 16px;
+}
+
+li:first-letter {
     text-transform: capitalize;
 }
 
