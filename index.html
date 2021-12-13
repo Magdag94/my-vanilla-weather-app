@@ -16,9 +16,12 @@
             <form id="search-form" class="mb-5">
                 <div class="row">
                     <div class=col-9>
-                <input type="search";
+                <input type="search"
+                id="city-input"
                 placeholder="Where are you going next?"
-                class="form-control"/>
+                class="form-control"
+                autocomplete="off"
+                />
             </form>
             </div>
             <div class=col-3>
@@ -43,8 +46,8 @@
             />
             <div class="float-left">
                 <strong id="temperature"></strong>
-                <span class="units">
-            ° | °F
+                <span class="units"><a href="#" id="celsius-link">°C</a>
+             | <a href="#" id="fahrenheit-link">°F</a>
                 </span>
             </div>
             </div>
