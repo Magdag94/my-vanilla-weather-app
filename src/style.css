@@ -4,20 +4,17 @@ body {
 
 h1 {
     color: #01633d;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 40px;
+    font-weight: bolder;
     padding: 10px;
     margin-bottom: 0;
-    margin-top: 0;
-    font-weight: bolder;
 }
 
 ul {
     margin: 0;
     padding: 0;
-}
-
-.date {
-    color: black;
 }
 
 li {
@@ -48,6 +45,8 @@ img {
 
 strong {
     color: #01633d;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 64px;
     line-height: 1;
 }
@@ -56,4 +55,30 @@ strong {
     position: relative;
     font-size: 20px;
     top: -34px;
+}
+
+h2 {
+  text-align: right;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 30px;
+  font-weight: bolder;
+  color: #01633d;
+}
+
+.temperatures-forecast {
+text-align: right;
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+font-size: 20px;
+padding: 5px;
+list-style: none;
+}
+
+.temperature-forecast-max {
+font-weight: bold;
+}
+
+.temperature-forecast-min {
+    font-weight: bold;
 }
